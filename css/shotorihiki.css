@@ -1,0 +1,21 @@
+@charset "UTF-8";
+html,body{margin:0;padding:0;}
+
+.wrap{
+    margin: 150px 100px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.wrap h1{
+    font-size: 3rem;
+}
+
+.heading{
+    font-size:24px;
+    /* font-size: 1.5rem; */
+}
+
+.content{
+    font-size:16px;
+    /* font-size:1rem; */
+}

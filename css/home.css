@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+.homerogo-img {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    min-width: 500px;
+    margin-left: -200px;
+}
+
+.withcap{
+    margin-top: -50px;
+    width: 90%;
+    max-width: 1000px;
+    min-width: 700px;
+}
+
+.home-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.home-wrap2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-wrap3{
+    display: flex;
+    justify-content: center
+}
+
+.homecontent{
+    margin-top: -150px;
+    font-size: 1.8rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: -220px;
+    min-width: 500px;
+}
+
+.timer{
+    width: 100%;
+    max-width: 700px;
+    min-width: 200px;
+}
+
+.game{
+    width: 100%;
+    max-width: 700px;
+    min-width: 200px;
+    margin-right: 50px;
+}
+
+.home2{
+    font-size: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 100px;
+    /* min-width: 500px; */
+    margin-left: 100px;
+}
+
+.more-link{
+    color: black;
+}
+
+.home3{
+    font-size: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 100px 50px 80px 50px;
+    /* min-width: 500px; */
+}
+
+.wave{
+    width: 100%;
+    margin-bottom: -850px;
+}
+
+.more-link{
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+.flag{
+    position: absolute;
+    top: -50px;
+    width: 650px;
+}
+
+
+/* モバイル版　*/
+@media (max-width: 1060px) {
+    .homerogo-img {
+        width: 100vw;
+        min-width: 200px;
+        margin-top: -50px;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .homecontent{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .homerogo{
+        margin: 0 auto;
+    }
+
+    .withcap-img{
+        margin-top: 100px;
+        width: 120%;
+        min-width: 500px;
+    }
+
+    .flag-img{
+        width: 450px;
+    }
+
+    .timer-img{
+        width: 100%;
+    }
+
+    .game-img{
+        width: 100%;
+    }
+
+    .home-wrap{
+        flex-direction: column;
+    }
+
+    .home2{
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+
+    .home3{
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .home-wrap2{
+        flex-direction: column-reverse;
+    }
+
+    .home-wrap3{
+        flex-direction: column;
+    }
+
+}
