@@ -107,7 +107,7 @@ nav.globalMenuSp {
     text-align: center;
     width: 30%;
     height: 100%;
-    transform: translateX(350%);
+    margin-left:100%;
     transition: all 0.6s;
 }
 
@@ -144,7 +144,7 @@ nav.globalMenuSp ul li a {
 nav.globalMenuSp.active {
     opacity: 100;
     display: block;
-    transform: translateX(235%);
+    margin-left:70.5%;
 }
 
 
@@ -214,10 +214,10 @@ nav.globalMenuSp.active {
         top  : 0;
         left : 0;
         color: #fff;
-        background: rgba(26,26,26);
+        background: rgb(26,26,26);
         text-align: center;
         width: 100%;
-        transform: translateX(100%);
+        margin-left:100%;
         transition: all 0.6s;
     }
 
@@ -252,5 +252,6 @@ nav.globalMenuSp.active {
         opacity: 100;
         display: block;
         transform: translateX(0%);
+        margin-left:0%;
     }
 }

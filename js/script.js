@@ -15,6 +15,5 @@ $(function() {
     $('.globalMenuSp a[href]').click(function() {
         $('.globalMenuSp').removeClass('active');
         $('.hamburger').removeClass('active');
-
     });
 });

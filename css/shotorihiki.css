@@ -2,7 +2,7 @@
 html,body{margin:0;padding:0;}
 
 .wrap{
-    margin: 150px 100px;
+    margin: 150px 12vw;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -12,10 +12,8 @@ html,body{margin:0;padding:0;}
 
 .heading{
     font-size:24px;
-    /* font-size: 1.5rem; */
 }
 
 .content{
     font-size:16px;
-    /* font-size:1rem; */
 }

@@ -12,7 +12,6 @@
     margin-top: -50px;
     width: 90%;
     max-width: 1000px;
-    min-width: 700px;
 }
 
 .home-wrap{
@@ -36,7 +35,7 @@
     font-size: 1.8rem;
     font-family: 'Noto Sans JP', sans-serif;
     margin-left: -220px;
-    min-width: 500px;
+    /* min-width: 500px; */
 }
 
 .timer{
@@ -84,12 +83,14 @@
 .flag{
     position: absolute;
     top: -50px;
-    width: 650px;
+    width: 100vw;
+    max-width:650px;
 }
 
 
 /* モバイル版　*/
 @media (max-width: 1060px) {
+
     .homerogo-img {
         width: 100vw;
         min-width: 200px;
@@ -99,7 +100,7 @@
     }
 
     .homecontent{
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         margin-left: 0;
     }
@@ -108,11 +109,25 @@
         margin: 0 auto;
     }
 
+    .withcap{
+        margin-top: -50px;
+        width: 100%;
+        max-width: 1000px;
+        /* min-width: 700px; */
+    }
+
+    .game{
+        width: 100%;
+        max-width: 700px;
+        min-width: 200px;
+        margin-right: 0;
+    }
+
     .withcap-img{
         margin-top: 100px;
-        width: 120%;
-        min-width: 500px;
+        /* min-width: 500px; */
     }
+
 
     .flag-img{
         width: 450px;
@@ -120,10 +135,14 @@
 
     .timer-img{
         width: 100%;
+        text-align: center;
     }
+
+    
 
     .game-img{
         width: 100%;
+        text-align: center;
     }
 
     .home-wrap{
@@ -134,6 +153,7 @@
         text-align: center;
         font-size: 1.6rem;
         margin-top: 0;
+        margin-left :0;
     }
 
     .home3{
@@ -141,6 +161,7 @@
         font-size: 1.6rem;
         margin-top: 0;
         margin-left: 0;
+        margin-right: 0;
     }
 
     .home-wrap2{
